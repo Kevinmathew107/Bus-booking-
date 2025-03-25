@@ -1,0 +1,77 @@
+.nav-link {
+  padding: 5px 10px 5px 10px !important;
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: #222 !important;
+  color: #fff;
+}
+a {
+  text-decoration: none !important;
+}
+.dropdown-menu {
+  padding: 0;
+}
+
+.dropdown-item {
+  padding: 5px 10px 5px 10px !important;
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: white;
+  color: #35b8dc !important;
+}
+
+.login-head {
+  font-family: Fantasy;
+}
+
+.form-input {
+  border: 0px;
+  background-color: transparent;
+  border-bottom: 5px solid white;
+  color: white;
+}
+
+.form-input::placeholder {
+  color: white;
+}
+
+.form-input:focus {
+  outline: 0px none !important;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.btn {
+  background-color: #ffff !important;
+  color: #222;
+  border: solid #2222;
+  transition: 300ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: #222 !important;
+  color: #fff;
+  border: solid #fff;
+}
+
+.forma {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.forma:hover {
+  background-color: white;
+  color: #dc4535;
+  padding: 5px;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
